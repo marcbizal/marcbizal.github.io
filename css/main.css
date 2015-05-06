@@ -1,1 +1,92 @@
-html,body{position:relative;width:100%;height:100%}h1,h2,h3,h4{color:rgba(0,0,0,0.8);font-weight:300}h3{font-size:32px;margin:0}.center,.card{position:absolute;top:50%;left:50%;transform:translate(-50%, -50%)}*{font-size:16px;font-family:'Roboto',sans-serif}.brand-header{border-top-left-radius:2px;border-top-right-radius:2px;background-image:url('../img/pattern.png');background-blend-mode:overlay;background-color:#3fc6f4;background-size:cover;height:200px;width:100%;text-align:center}.brand-logo{width:150px;height:150px;margin:25px auto}.card-content{padding:8px;text-align:left;vertical-align:middle}.card-content p{padding:0;width:340px;padding-left:2px}.construction{height:20px;background:repeating-linear-gradient(45deg, #ffff00, #ffff00 10px, #000 10px, #000 20px)}.card{display:inline-block;border:1px solid rgba(0,0,0,0.2);border-radius:2px;box-shadow:0 2px 5px 0 rgba(0,0,0,0.2);width:auto}.seperator{width:100%;height:1px;background-color:rgba(0,0,0,0.2)}.button,.download-button,.github-button{display:inline-block;color:#fff;text-shadow:0 -1px 0 rgba(0,0,0,0.2);text-decoration:none;border:1px solid rgba(0,0,0,0.2);border-radius:2px;padding:8px}.button i,.download-button i,.github-button i{margin-right:8px}.download-button{background-image:linear-gradient(to bottom, #9fd256, #6fac34)}.download-button:hover{background-image:none;background-color:#9fd256}.github-button{background-image:linear-gradient(to bottom, #00b4f5, #008dc5)}.github-button:hover{background-image:none;background-color:#00b4f5}
+html, body {
+  position: relative;
+  width: 100%;
+  height: 100%; }
+
+h1, h2, h3, h4 {
+  margin: 0;
+  color: rgba(0, 0, 0, 0.8);
+  font-weight: 300; }
+
+h3 {
+  font-size: 36px; }
+
+.center, .card {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%); }
+
+* {
+  font-size: 16px;
+  font-family: 'Roboto', sans-serif; }
+
+.brand-header {
+  border-top-left-radius: 2px;
+  border-top-right-radius: 2px;
+  background-image: url("../img/pattern.png");
+  background-blend-mode: overlay;
+  background-color: #3fc6f4;
+  background-size: cover;
+  height: 200px;
+  width: 100%;
+  text-align: center; }
+
+.brand-logo {
+  width: 150px;
+  height: 150px;
+  margin: 25px auto; }
+
+.card-content {
+  padding: 8px;
+  text-align: left;
+  vertical-align: middle; }
+  .card-content p {
+    padding-top: 8px;
+    padding-bottom: 8px;
+    margin: 0;
+    max-width: 340px;
+    padding-left: 2px; }
+
+.card {
+  display: inline-block;
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  border-radius: 2px;
+  box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.2);
+  width: auto; }
+
+.seperator {
+  width: 100%;
+  height: 1px;
+  background-color: rgba(0, 0, 0, 0.2); }
+
+.button, .download-button, .github-button {
+  display: inline-block;
+  color: #fff;
+  text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.2);
+  text-decoration: none;
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  border-radius: 2px;
+  padding: 8px; }
+  .button i, .download-button i, .github-button i {
+    margin-right: 8px; }
+
+.download-button {
+  background-image: linear-gradient(to bottom, #9fd256, #6fac34); }
+
+.download-button:hover {
+  background-image: none;
+  background-color: #9fd256; }
+
+.github-button {
+  background-image: linear-gradient(to bottom, #00b4f5, #008dc5); }
+
+.github-button:hover {
+  background-image: none;
+  background-color: #00b4f5; }
+
+@media all and (max-width: 768px) {
+  .card {
+    border-radius: none;
+    width: 100%;
+    height: 100%; } }
