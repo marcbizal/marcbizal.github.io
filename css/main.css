@@ -47,6 +47,10 @@ h3 {
     max-width: 340px;
     padding-left: 2px; }
 
+.card-actions {
+  padding: 8px;
+  padding-bottom: 0; }
+
 .card {
   display: inline-block;
   border: 1px solid rgba(0, 0, 0, 0.2);
@@ -59,15 +63,16 @@ h3 {
   height: 1px;
   background-color: rgba(0, 0, 0, 0.2); }
 
-.button, .download-button, .github-button {
+.button, .download-button, .github-button, .raiders-button {
   display: inline-block;
   color: #fff;
   text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.2);
   text-decoration: none;
   border: 1px solid rgba(0, 0, 0, 0.2);
   border-radius: 2px;
-  padding: 8px; }
-  .button i, .download-button i, .github-button i {
+  padding: 8px;
+  margin-bottom: 8px; }
+  .button i, .download-button i, .github-button i, .raiders-button i {
     margin-right: 8px; }
 
 .download-button {
@@ -84,6 +89,15 @@ h3 {
   background-image: none;
   background-color: #00b4f5; }
 
+.raiders-button {
+  text-align: center;
+  width: 100%;
+  background-image: linear-gradient(to bottom, #424242, #212121); }
+
+.raiders-button:hover {
+  background-image: none;
+  background-color: #424242; }
+
 @media all and (max-width: 768px) {
   .card {
     top: 0;
@@ -94,9 +108,8 @@ h3 {
     border: none;
     transform: none; }
 
-  .button, .download-button, .github-button {
+  .button, .download-button, .github-button, .raiders-button {
     text-align: center;
     font-size: 1.25rem;
     padding: 10px;
-    margin-bottom: 8px;
     width: 100%; } }
