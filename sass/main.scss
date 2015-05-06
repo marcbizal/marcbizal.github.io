@@ -15,7 +15,7 @@ h1, h2, h3, h4 {
 }
 
 h3  {
-	font-size: 36px;
+	font-size: 2rem;
 }
 
 .center {
@@ -26,8 +26,9 @@ h3  {
 }
 
 * {
-	font-size: 16px;
+	font-size: 1rem;
 	font-family: 'Roboto', sans-serif;
+	box-sizing: border-box;
 }
 
 .brand-header {
@@ -52,9 +53,6 @@ h3  {
 
 .card-content {
 	padding: 8px;
-	text-align: left;
-	vertical-align: middle;
-
 	p {
 		padding-top: 8px;
 		padding-bottom: 8px;
@@ -115,8 +113,20 @@ h3  {
 
 @media all and (max-width: 768px) {
 	.card {
-		border-radius: none;
+		top: 0;
+		left: 0;
 		width: 100%;
-		height: 100%;
+		box-shadow: none;
+		border-radius: none;
+		border: none;
+		transform: none;
+	}
+
+	.button {
+		text-align: center;
+		font-size: 1.25rem;
+		padding: 10px;
+		margin-bottom: 8px;
+		width: 100%;
 	}
 }
