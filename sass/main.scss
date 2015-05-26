@@ -121,14 +121,14 @@ b {
 	background-color: #00b4f5;
 }
 
-.raiders-button {
+.codepen-button {
 	@extend .button;
 	text-align: center;
 	width: 100%;
 	background-image: linear-gradient(to bottom,#424242,#212121);
 }
 
-.raiders-button:hover {
+.codepen-button:hover {
 	background-image: none;
 	background-color: #424242;
 }

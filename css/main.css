@@ -66,7 +66,7 @@ b {
   height: 1px;
   background-color: rgba(0, 0, 0, 0.2); }
 
-.button, .download-button, .github-button, .raiders-button {
+.button, .download-button, .github-button, .codepen-button {
   display: inline-block;
   color: #fff;
   text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.2);
@@ -75,7 +75,7 @@ b {
   border-radius: 2px;
   padding: 8px;
   margin-bottom: 8px; }
-  .button i, .download-button i, .github-button i, .raiders-button i {
+  .button i, .download-button i, .github-button i, .codepen-button i {
     margin-right: 8px; }
 
 .download-button {
@@ -92,12 +92,12 @@ b {
   background-image: none;
   background-color: #00b4f5; }
 
-.raiders-button {
+.codepen-button {
   text-align: center;
   width: 100%;
   background-image: linear-gradient(to bottom, #424242, #212121); }
 
-.raiders-button:hover {
+.codepen-button:hover {
   background-image: none;
   background-color: #424242; }
 
@@ -111,7 +111,7 @@ b {
     border: none;
     transform: none; }
 
-  .button, .download-button, .github-button, .raiders-button {
+  .button, .download-button, .github-button, .codepen-button {
     text-align: center;
     font-size: 1.25rem;
     padding: 10px;
