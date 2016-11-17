@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,400,700,800');
+
+$text-color: #868686;
+$highlight-color: -webkit-gradient(linear, left top, right bottom, from(#3023AE), to(#C96DD8));
+
+html, body {
+	padding: 0;
+	margin: 0;
+	
+	font-family: 'Open Sans', Helvetica, sans-serif;
+	font-weight: 300;
+	font-size: 18px;
+	
+	height: 100%;
+	width: 100%;
+}
+
+canvas {
+	display: block;
+	vertical-align: bottom;
+	opacity: 0.5;
+}
+
+.align {
+	display: flex;
+  	align-items: center;
+  	justify-content: center;
+}
+
+.align-item {
+	flex: 1;
+}
+
+#particles-js {
+	z-index: -1;
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	background-color: #fff;
+}
+
+#hero-container {
+	
+	width: 100%;
+	height: 100%;
+	
+	& > #hero-logo {
+		display: inline-block;
+		position: absolute;
+		top: 32px;
+		left: 32px;
+		
+		width: 32px;
+		height: 32px;
+	}
+	
+	& > #contact-links {
+		color: $text-color;
+		
+		position: absolute;
+		bottom: 0px;
+		right: 0px;
+		
+		padding: 32px;
+		font-size: 14px;
+		
+		& > a {
+			color: inherit;
+			text-decoration: none;
+			
+			&:hover {
+				color: #000;
+			}
+		}
+	}
+}
+
+#hero-text {
+	color: $text-color;
+	text-align: center;
+	
+	& > h1 {
+		display: inline-block;
+
+		margin: 0;
+		padding: 0;
+		
+		text-transform: uppercase;
+		font-weight: 800;
+		font-size: 144px;
+		
+		// line-height: 1.5em;
+		
+		background: $highlight-color;
+		
+		-webkit-background-clip: text;
+		-webkit-text-fill-color: transparent;
+	}
+	
+	& > b {
+		font-weight: 700;
+		
+		background: $highlight-color;
+		
+		-webkit-background-clip: text;
+		-webkit-text-fill-color: transparent;
+	}
+}
